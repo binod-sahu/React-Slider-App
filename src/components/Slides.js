@@ -24,6 +24,7 @@ function Slides({slides}) {
 
     return (
         <div>
+            <h2>Slide with React Hooks</h2>
             <div id="navigation" className="text-center">
                 <button data-testid="button-restart" className="small outlined" disabled={curr === 0} onClick={() => restart()}>Restart</button>
                 <button data-testid="button-prev" className="small" disabled={curr === 0} onClick={() => gotoPrev()}>Prev</button>
